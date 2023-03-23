@@ -37,48 +37,36 @@ header {
     display: none;
 }
 
+
 .logo {
+    /* border: 1px solid red; */
     height: 100%;
-    max-height: 50px;
+    max-height: 40px;
     width: auto;
-  }
-  
-/*.logo {
-    /* border: 1px solid red; 
-    height: 100%;
-    max-height: 50px;
-    width: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    text-align: center;
-    color: whitesmoke;
-    font-weight: lighter;
-    font-size: 20px; 
-}*/
+    margin-left: 5px;
+    margin-top: 4px;
+}
 
-
-/*.link {
-    /* border: 1px solid red; 
+.link {
+    /* border: 1px solid red; */
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-}*/
+}
 
 .menu {
     /* border: 1px solid red; */
-    height: 100%;
+    margin-top: 15px;
     display: flex;
-    justify-content: flex-end;
+    z-index: 1;
 }
 
 .menu>li {
     /* border: 1px solid red; */
     list-style-type: none;
-    margin-left: 50px;
+    margin-right: 50px;
     color: whitesmoke;
     font-size: 1em;
 }
@@ -94,7 +82,6 @@ header {
 .menu a:hover {
     color: #eec07a;
 }
-
 
 .menu>li:last-of-type {
     margin-right: 2em;
@@ -143,6 +130,7 @@ body {
     background-color: #ffffff;
     font-size: 20px;
     z-index: 0;
+    
 }
 
 .content-container {
@@ -153,25 +141,39 @@ body {
     position: absolute;
     margin-top: 150px;
     width: 100%;
+    
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin: 0 200px
+    
+  }
+  
 article {
     /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 20px 20px;
+    margin: 0 200px
+    
 }
 
 h1 {
-    color: #eec07a;
+    
+    color: #ffffff;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
+    
 }
 
 
 h2,
 h3 {
+    
     font-size: 1.5em;
 }
 
@@ -198,7 +200,7 @@ a:link {
 }
 
 a:hover {
-    color: #05397b
+    color: #ffffff
 }
 
 
@@ -292,7 +294,7 @@ a:hover {
         width: 100%;
         height: calc(100% - 150px);
         padding: 50px;
-        background: #05397b;
+        background: #636465;
     }
 
 }
