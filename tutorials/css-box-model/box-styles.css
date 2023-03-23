@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* You’ll find a similar reset at the top of almost every global CSS stylesheet on the web. They can get a whole lot more complicated, but the three simple declarations shown above allow us to confidently tweak the CSS box model for our own purposes without worrying about unforeseen interactions with default browser styles. */
+
+h1 {
+    padding: 50px;
+    background-color: #DDE0E3;
+    /* Light gray */
+    border-bottom: 5px double black;
+}
+
+
+p {
+    background-color: #DDE0E3;
+    /* Light gray */
+    padding: 20px 0 20px 10px;
+    /* First is vertical, second horizontal */
+    margin-top: 25px;
+    margin-bottom: 50px;
+    /* PROs and CONs Padding vs. Margin */
+    /*Paddings have backgrounds, margins are always transparent */
+    /*You can click the padding space if the element is 'clickable' */
+    /* Margins collapse vertically */
+
+    /*If you want to play with the vertical space of a page,
+     you must be working with block-level elements*/
+}
+
+body {
+    text-align: center;
+}
+
+strong {
+    background-color: #B2D6FF;
+    margin: 50px;
+    display: inline;
+    /*This is also the default. */
+}
+
+div {
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    /* Vertical  Horizontal */
+}
