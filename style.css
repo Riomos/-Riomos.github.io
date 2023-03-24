@@ -132,6 +132,20 @@ body {
     z-index: 0;
     
 }
+.background {
+    background-image: url('assets/PNG/background_projektportfolio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+
+  }
 
 .content-container {
     /* border: 1px solid red; */
