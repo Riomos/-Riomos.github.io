@@ -142,7 +142,7 @@ body {
     
 }
 .background {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     height: 100vh;
@@ -161,14 +161,30 @@ body {
 .content-container {
     /* border: 1px solid red; */
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    position: absolute;
-    margin: 60px 200px
-    
+    margin: 200px 0;
 }
 
+.image_next_to_text {
+    margin-left: 200px;
+    width: 40%;
+    height: fit-content;
+}
 
+.image-container {
+    top: 0;
+  }
+  
+  .content-image {
+    max-width: 100%;
+  }
+  
+  .text-container {
+    margin: 0 100px;
+  }
+  
+  .text-container p {
+    /* Hier kommen Ihre Styles für den Text hin */
+  }
   
 article {
     /* border: 1px solid red; */
