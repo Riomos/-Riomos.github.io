@@ -161,10 +161,11 @@ body {
   
 
 .bar {
+    margin-top: -10px;
     height: 30px;
     width: 100%;
     background-color: #eec07a;
-    margin-top: 2215;
+    
     
 } 
 
